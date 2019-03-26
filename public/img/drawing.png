@@ -1,6 +1,4 @@
-describe "GIT" do
-# describe "STAGING AND COMMITTING CHANGES:" do
-  it "1. What is the syntax for staging a change in index.html if it is in the root dir?" do
+hgjdhfsgasuiqyetqwyudghsxzgit "1. What is the syntax for staging a change in index.html if it is in the root dir?" do
     answer = "git add index.html"
     encoded_answer = "bf338924ddc9ff4eb0c685a794960e0c4ffade2c"
     expect(encode(answer)).to eq(encoded_answer)
@@ -193,6 +191,9 @@ describe "GIT" do
     encoded_answer = "7cb6efb98ba5972a9b5090dc2e517fe14d12cb04"
     expect(encode(answer)).to eq(encoded_answer)
   end
+  
+  
+  
 
   it "26. Once you've resolved merge conflicts, you must stage and commit the files
       in which there were conflicts" do
@@ -266,7 +267,3 @@ describe "GIT" do
      will 'git status' say you're ahead or behind (or both) origin/master?" do
     # "ahead" or "behind" or "ahead and behind"
     answer = "ahead and behind"
-    encoded_answer = "d81d22fb57ad5589d12d6363f4160b33232c3510"
-    expect(encode(answer)).to eq(encoded_answer)
-  end
-end
